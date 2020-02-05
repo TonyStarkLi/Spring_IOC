@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55f29237-d782-4473-946e-028d4a4cfca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo1/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/Bean2Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/Bean3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/Bean3Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo2/SpringDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo1/SpringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo1/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonystarkli/ioc/demo1/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tonystarkli/ioc/demo1/SpringDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonystarkli/ioc/demo1/SpringDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tonystarkli/ioc/demo1/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonystarkli/ioc/demo1/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringDemo1.demo2">
+  <component name="RunManager" selected="JUnit.SpringDemo2.demo2">
     <configuration name="SpringDemo1.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_IOC" />
       <extension name="coverage">
@@ -83,8 +85,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_IOC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tonystarkli.ioc.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tonystarkli.ioc.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.tonystarkli.ioc.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_IOC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tonystarkli.ioc.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tonystarkli.ioc.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.tonystarkli.ioc.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringDemo2.demo2" />
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
         <item itemvalue="JUnit.SpringDemo1.demo2" />
         <item itemvalue="JUnit.SpringDemo1.demo1" />
       </list>
@@ -113,6 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580676258271</updated>
       <workItem from="1580676259539" duration="4491000" />
+      <workItem from="1580867990516" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -124,25 +161,29 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="285" y="268" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1580680129329" />
-    <state width="834" height="271" key="GridCell.Tab.0.bottom" timestamp="1580694995883">
+    <state width="1051" height="199" key="GridCell.Tab.0.bottom" timestamp="1580869629233">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="834" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1580694995883" />
-    <state width="834" height="271" key="GridCell.Tab.0.center" timestamp="1580694995883">
+    <state width="1051" height="199" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1580869629233" />
+    <state width="1051" height="199" key="GridCell.Tab.0.center" timestamp="1580869629232">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="834" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1580694995883" />
-    <state width="834" height="271" key="GridCell.Tab.0.left" timestamp="1580694995882">
+    <state width="1051" height="199" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1580869629232" />
+    <state width="1051" height="199" key="GridCell.Tab.0.left" timestamp="1580869629232">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="834" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1580694995882" />
-    <state width="834" height="271" key="GridCell.Tab.0.right" timestamp="1580694995883">
+    <state width="1051" height="199" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1580869629232" />
+    <state width="1051" height="199" key="GridCell.Tab.0.right" timestamp="1580869629233">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="834" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1580694995883" />
+    <state width="1051" height="199" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1580869629233" />
     <state x="1039" y="433" key="com.intellij.ide.util.TipDialog" timestamp="1580867992059">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1039" y="433" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1580867992059" />
+    <state x="971" y="444" width="670" height="676" key="search.everywhere.popup" timestamp="1580868547764">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="971" y="444" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1580868547764" />
   </component>
 </project>
