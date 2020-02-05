@@ -3,7 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--UserService的创建权交给了Spring-->
+    <bean id="userService" class="com.tonystarkli.ioc.demo1.UserServiceImpl">
+        <!--设置属性-->
+        <property name="name" value="tony"/>
+    </bean>
 
-    <bean id="userService" class="com.tonystarkli.ioc.demo1.UserServiceImpl"></bean>
+    <bean id="food" class="com.tonystarkli.ioc.demo1.Food">
+        <property name="name" value="香蕉"/>
+        <property name="kind" value="水果"/>
+        <property name="taste" value="甜甜的"/>
+    </bean>
 
 </beans>
