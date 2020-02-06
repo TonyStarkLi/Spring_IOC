@@ -15,14 +15,18 @@
         <property name="taste" value="甜甜的"/>
     </bean>
 
-    <!--Bean的实力化的三种方式-->
-    <!--第一种：无惨构造器的方式-->
-    <bean id="bean1" class="com.tonystarkli.ioc.demo2.Bean1"/>
-    <!--第二种：静态工厂的方式-->
-    <bean id="bean2" class="com.tonystarkli.ioc.demo2.Bean2Factory" factory-method="createBean2"/>
-    <!--第二种：实例工厂的方式-->
-    <bean id="bean3Factory" class="com.tonystarkli.ioc.demo2.Bean3Factory"/>
-    
 
+<!--    &lt;!&ndash;Bean的实力化的三种方式&ndash;&gt;-->
+<!--    &lt;!&ndash;第一种：无惨构造器的方式&ndash;&gt;-->
+<!--    <bean id="bean1" class="com.tonystarkli.ioc.demo2.Bean1"/>-->
+<!--    &lt;!&ndash;第二种：静态工厂的方式&ndash;&gt;-->
+<!--    <bean id="bean2" class="com.tonystarkli.ioc.demo2.Bean2Factory" factory-method="createBean2"/>-->
+<!--    &lt;!&ndash;第二种：实例工厂的方式&ndash;&gt;-->
+<!--    <bean id="bean3Factory" class="com.tonystarkli.ioc.demo2.Bean3Factory"/>-->
+<!--    <bean id="bean3" factory-bean="bean3Factory" factory-method="createBean3"/>-->
+
+    <!--Bean的作用范围-->
+<!--    <bean id="person" class="com.tonystarkli.ioc.demo3.Person" scope="singleton"/>-->
+    <bean id="person" class="com.tonystarkli.ioc.demo3.Person" scope="prototype"/>
 
 </beans>
